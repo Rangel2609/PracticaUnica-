@@ -1,0 +1,30 @@
+[
+    {
+        "nombre":"Carlos",
+        "Edad":29,
+        "Promedio":87
+    },
+    {
+        "nombre":"Javier",
+        "Edad":28,
+        "Promedio":75
+
+    },
+    {
+        "nombre":"Michelle",
+        "Edad":29,
+        "Promedio":90
+
+    },
+    {
+        "nombre":"Daniel",
+        "Edad":27,
+        "Promedio":62
+
+    },
+    {
+        "nombre":"Sofia",
+        "Edad":30,
+        "Promedio":78
+    }
+]
