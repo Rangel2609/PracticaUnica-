@@ -19,6 +19,7 @@ while True:
  
 	if seleccion=="1":
 		print ("Usted a seleccionado Cargar")
+		
 		break
 	elif seleccion=="2":
 		print ("Usted a seleccionado Seleccionar")
@@ -43,6 +44,6 @@ while True:
 		print("Seleccione una opcione que sea valida")
 
 
-		
+
 
 		
