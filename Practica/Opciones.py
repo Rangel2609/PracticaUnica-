@@ -1,10 +1,10 @@
 import json
 
-f = open("Practica/Archivo1.json", "r")
+f = open("Practica/Archivo2.json")
 lectura = f.read()
-print(lectura)
+
+print(f)
 
 
 
-
-
+sdasdasdasdasdasdasd
