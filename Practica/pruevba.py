@@ -9,5 +9,6 @@ def cargar_datos(ruta):
 
             print(int(min(a)))
 if __name__ == '__main__':
-    ruta = "Practica/Archivo2.json"
+    ruta = "Archivo2.json"
     cargar_datos(ruta)
+
