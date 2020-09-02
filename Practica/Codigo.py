@@ -19,14 +19,19 @@ while True:
 
 	if seleccion=="1":
 		print ("Usted a seleccionado Cargar")
-		with open("Archivo2.json", "r") as file:
+		y = input("Escriba el nombre del archivo que desea abrir")
+		print("1. Vuelve al menu Principal ")
+		print("2. Mostrar Archivos cargados")
+
+
+		with open(y, "r") as file:
 			CARGAR = json.loads(file.read())
 			print(CARGAR)
 			print("Aqui estan los datos cargados")
 		break
 	elif seleccion=="2":
 		print ("Usted a seleccionado Seleccionar")
-		import json
+
 
 
 		def cargar_datos(ruta):
