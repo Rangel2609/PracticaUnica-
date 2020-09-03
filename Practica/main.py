@@ -6,7 +6,7 @@ def cargar_datos(ruta):
         x = input("Escribe el campo a encontrar el minimo")
         for nombre in nombres:
             atributo = nombre.get(x)
-            print(atributo)
+            print(min(atributo))
             return (atributo)
 if __name__ == '__main__':
     ruta = "Archivo2.json"
