@@ -1,4 +1,5 @@
 import  json
+import webbrowser
 print("Bienvenido")
 input("Presione entrer para continuar")
 def opciones():
@@ -56,18 +57,51 @@ while True:
 		break
 	elif seleccion=="6":
 		print("Usted a seleccionado Cuenta")
-		import json
-
 		with open("Archivo2.json") as f:
-			f = json.loads(f.read())
+			y = input("Escriba el nombre del archivo que desea saber su numero de registros")
+			with open(y, "r") as file:
+				CARGAR = json.loads(file.read())
+				print(CARGAR)
 			contador = 0
-			for registros in f:
+			for registros in CARGAR:
 				contador = contador + 1
 				print(contador)
 				print("Tiene un total de:"+ str(contador) +  "registros")
 		break
 	elif seleccion=="7":
 		print("Usted a seleccionado Reportar")
+		f = open("tarea.html", "wb")
+		la = """<html>
+		<head>
+		<meta charset="utf8" />
+		<title>Registros</title>
+		<script src="bla.js"></script>
+		</head>
+		<style type="text/css">
+		body{background-color: chartreuse;}
+		h1{text-align: center;}
+		.opciones {
+		    width: 100%;
+		    background-color: red;
+		    display:flex;
+		    justify-content:center;
+		    width: 1000px;
+		    height: 700px;
+		}
+		.nav{align-content: center;}
+		</style>
+		<body>
+		<table id= "tabla">
+
+		</table>
+		</body>
+
+
+		</html>"""
+		f.write(bytes(la, "ascii"))
+		f.close()
+		webbrowser.open_new_tab("tarea.html")
+
 		break
 	else:
 		print("Seleccione una opcione que sea valida")

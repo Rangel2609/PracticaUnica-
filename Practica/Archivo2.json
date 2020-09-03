@@ -37,5 +37,12 @@
         "nombre":"Julian",
         "Edad":30,
         "Promedio":70
+    },
+      {
+        "nombre":"Hector",
+        "Edad":26,
+        "Promedio":85
+
     }
+
 ]

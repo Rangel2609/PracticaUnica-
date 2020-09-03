@@ -11,3 +11,6 @@ def cargar_datos(ruta):
 if __name__ == '__main__':
     ruta = "Archivo2.json"
     cargar_datos(ruta)
+
+
+
