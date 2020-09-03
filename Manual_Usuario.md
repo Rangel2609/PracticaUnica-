@@ -9,3 +9,4 @@ En este manual usted quien es el usuario aprendera sobre el uso del programa Sim
 7. Reportar: Esta funcion tiene cmo proposito abrir un archivo con extension html en el cual se encuentre los datos de cada persona.
 
 El programa tiene un menu interactico con el usuaario que depende de la seleccion de numeros para entrar a cada funcionalidad del mismo.
+

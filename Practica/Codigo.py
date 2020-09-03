@@ -104,7 +104,7 @@ while True:
 
 		break
 	else:
-		print("Seleccione una opcione que sea valida")
+		print("Seleccione una opcion que sea valida")
 
 
 
