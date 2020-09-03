@@ -1,0 +1,35 @@
+import webbrowser
+import json
+
+f= open("tarea.html", "wb")
+la = """<html>
+<head>
+<meta charset="utf8" />
+<title>Registros</title>
+<script src="bla.js"></script>
+</head>
+<style type="text/css">
+body{background-color: chartreuse;}
+h1{text-align: center;}
+.opciones {
+    width: 100%;
+    background-color: red;
+    display:flex;
+    justify-content:center;
+    width: 1000px;
+    height: 700px;
+}
+.nav{align-content: center;}
+</style>
+<body>
+<table id= "tabla">
+
+</table>
+</body>
+
+
+</html>"""
+
+f.write(bytes(la, "ascii"))
+f.close()
+webbrowser.open_new_tab("tarea.html")

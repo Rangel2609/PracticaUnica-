@@ -1,0 +1,5 @@
+                                   **Manual de Usuario**
+En este manual usted quien es el usuario aprendera sobre el uso del programa SimpleSQL, al iniciar el programa se observa el menu principal el cual cuenta con 7 opciones las cuales seran enlistadas a continuacion.
+1. Cargar: El comando cargar le pedira que ingrese el nombre del archivo con extension .json que desea cargar, despues de que este ingresado el nombre del archivo procedera a cagarlo y le mostrra en consola los datos que estan dentro de el.
+2. Seleccionar: El comando seleccionar le preguntara que campo es el que quiere mandar a llamar, con ese dato cagara los atributos de ese campo y le mostrara en consola todos los atributos que tiene el archivo.
+3. Maximo: Esta funcion la cual le permitira saber el dato con valor mayor entre todos los atributos, la manera en la cual funciona este comando es que el usuario(usted) debe de ingresar el 
