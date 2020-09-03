@@ -38,7 +38,7 @@ while True:
 		def cargar_datos(ruta):
 			with open(ruta) as contenido:
 				nombres = json.load(contenido)
-				x = input("Ingrese el atributo")
+				x = input("Ingrese el campo")
 				for nombre in nombres:
 					edad = nombre.get('Edad')
 					print(edad)
